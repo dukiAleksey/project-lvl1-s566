@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dukiAleksey_brain_games"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Aleksey Duki <aleksey.duki@transatel.com>"]
 packages = [{include = "brain_games"},]
@@ -10,6 +10,7 @@ brain-games = "brain_games.scripts.brain_games:main"
 
 [tool.poetry.dependencies]
 python = "^3.7"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 

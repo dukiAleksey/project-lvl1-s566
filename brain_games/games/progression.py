@@ -1,8 +1,5 @@
 import random
 
-from brain_games.cli import greet
-from brain_games.cli import ask
-
 
 DESCRIPTION = 'What number is missing in the progression?'
 ATTEMPTS = 3

@@ -1,8 +1,5 @@
 import random
 
-from brain_games.cli import greet
-from brain_games.cli import ask
-
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 ATTEMPTS = 3

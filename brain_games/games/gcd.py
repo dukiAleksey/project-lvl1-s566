@@ -1,9 +1,6 @@
 import random
 from fractions import gcd
 
-from brain_games.cli import greet
-from brain_games.cli import ask
-
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 ATTEMPTS = 3

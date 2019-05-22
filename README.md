@@ -18,4 +18,6 @@ pip install --index-url http://https://test.pypi.org/legacy dukiAleksey_brain_ga
 ```bash
 poetry run brain-even
 poetry run brain-calc
+poetry run brain-gcd
+poetry run brain-progression
 ```

@@ -13,10 +13,8 @@ def stage():
     p_step = random.randint(1, 10)
     p_start = random.randint(1, 10)
     p_hidden = random.randrange(p_len - 1)
-    print(p_len, p_step, p_start, p_hidden)
     progression = list(range(p_start, p_len * p_step, p_step))
     answer = progression[p_hidden]
-    print(answer)
     progression[p_hidden] = '..'
     progression = " ".join(str(x) for x in progression)
     return (f'Question: {progression}', answer)

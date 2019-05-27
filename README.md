@@ -9,16 +9,41 @@
 ## installing
 
 ```bash
-pip install --user dukiAleksey_brain_games
-pip install --index-url http://https://test.pypi.org/legacy dukiAleksey_brain_games
+pip install -i https://test.pypi.org/simple/ dukialeksey-brain-games --extra-index-url https://pypi.org/simple/
 ```
+
+Installation example
+
+[![asciicast](https://asciinema.org/a/ooqVg2uGhfe7bi4Yfdqr3wUN4.svg)](https://asciinema.org/a/ooqVg2uGhfe7bi4Yfdqr3wUN4)
 
 ## run game
 
-```bash
-poetry run brain-even
-poetry run brain-calc
-poetry run brain-gcd
-poetry run brain-progression
-poetry run brain-prime
-```
+### Is even nember
+
+To play **Is even number** game run `$ brain-even` in command line
+
+[![asciicast](https://asciinema.org/a/MzomXJZk1kYHhXfBBboNq4sEY.svg)](https://asciinema.org/a/MzomXJZk1kYHhXfBBboNq4sEY)
+
+### Calculator
+
+To start **Calculator** run `$ brain-calc` in command line
+
+[![asciicast](https://asciinema.org/a/5aDxNVRJrTIxrtkO20DcQGzOb.svg)](https://asciinema.org/a/5aDxNVRJrTIxrtkO20DcQGzOb)
+
+### GCD
+
+To start **GCD** game run `$ brain-gcd` in command line
+
+[![asciicast](https://asciinema.org/a/vHDiajfnsGOJYFJLYLB6dFsch.svg)](https://asciinema.org/a/vHDiajfnsGOJYFJLYLB6dFsch)
+
+### Progression
+
+To start **Progression** game run `$ brain-progression` in command line
+
+[![asciicast](https://asciinema.org/a/83ezpx3osrEczKPr9fcecDL8U.svg)](https://asciinema.org/a/83ezpx3osrEczKPr9fcecDL8U)
+
+### Is Prime number
+
+To start **Is Prime number** game run `$ brain-prime` in command line
+
+[![asciicast](https://asciinema.org/a/x4aRmTYQiIdYUh0Ga9eMOogsV.svg)](https://asciinema.org/a/x4aRmTYQiIdYUh0Ga9eMOogsV)
